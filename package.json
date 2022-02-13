@@ -1,0 +1,21 @@
+{
+    "name": "oop_10",
+    "version": "1.0.0",
+    "description": "Object Oriented Programming test",
+    "main": "index.js",
+    "directories": {
+        "lib": "lib",
+        "test": "tests"
+    },
+    "scripts": {
+        "test": "jest --verbose test/*"
+    },
+    "author": "Kalvin Sweatt",
+    "license": "MIT",
+    "dependencies": {
+        "inquirer": "^8.2.0"
+    },
+    "devDependencies": {
+        "jest-cli": "^27.5.1"
+    }
+}
